@@ -5,12 +5,13 @@
 这是一篇用来测试上传项目到Github,以及打包发布到maven、jcenter而创建的仓库。
 
 # Maven
+  maven引入请添加
 <dependency>
   <groupId>com.leo.g2os</groupId>
   <artifactId>g2os-library</artifactId>
   <version>1.0.0</version>
   <type>pom</type>
 </dependency>
-
 # Gradle
+  gradle引入请添加
 compile 'com.leo.g2os:g2os-library:1.0.0'
